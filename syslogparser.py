@@ -7,7 +7,7 @@ import operator
 # Populate an empty dictionary with values from a particular log file
 def populate(proc_dict, file_path):
     proc_pattern = re.compile("\S*\[\d*\]")
-    date_pattern = re.compile(".{4}\d{2} \d{2}:\d{2}")
+    date_pattern = re.compile(".{3}\d{2} \d{2}:\d{2}")
 
     with open(file_path, "r") as file:
         lines = file.readlines()
