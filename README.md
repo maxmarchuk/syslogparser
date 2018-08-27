@@ -3,12 +3,12 @@ A simple python script to parse system log files and output each process's numbe
 
 # Usage
 ```
-$> ./syslogparser.py <path to log file>
+./syslogparser.py <path to log file>
 ```
 
 # Example
 ```
-$> ./syslogparser.py "/var/log/system.log"
+./syslogparser.py "/var/log/system.log"
 ```
 Example of output:
 
