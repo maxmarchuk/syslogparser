@@ -10,5 +10,6 @@ $> ./syslogparser.py <path to log file>
 ```
 $> ./syslogparser.py "/var/log/system.log"
 ```
-Output:
-![syslogparser output] (http://i.imgur.com/0XHPMP9.png?1)
+Example of output:
+
+![syslogparser output](http://i.imgur.com/0XHPMP9.png)
